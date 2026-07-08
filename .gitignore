@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.logs
+main.py
+test.txt
+test.mp3

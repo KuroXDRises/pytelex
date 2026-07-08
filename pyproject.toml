@@ -1,0 +1,55 @@
+[build-system]
+requires = ["setuptools>=69.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pytelex"
+version = "1.0.0b1"
+description = "A modern asynchronous Telegram Bot framework for Python."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+
+authors = [
+    { name = "KuroXDRises", email = "sufyan532011@gmail.com" }
+]
+
+keywords = [
+    "telegram",
+    "telegram-bot",
+    "bot",
+    "framework",
+    "async",
+    "python",
+    "metagram"
+]
+
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Framework :: AsyncIO",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Communications"
+]
+
+dependencies = [
+    "httpx>=0.28.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/KuroXDRises/pytelex"
+Repository = "https://github.com/KuroXDRises/pytelex"
+Issues = "https://github.com/KuroXDRises/pytelex/issues"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+include = ["pytelex*"]
