@@ -1,6 +1,8 @@
 # pytelex/types/inline_keyboard_button.py
 
 from .object import Object
+from .keyboard_button import KeyboardButton
+
 
 class InlineKeyboardButton(Object):
     def __init__(

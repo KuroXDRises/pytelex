@@ -1,4 +1,5 @@
 from .object import Object
+from .keyboard_button import KeyboardButton
 
 
 class ReplyKeyboardMarkup(Object):
