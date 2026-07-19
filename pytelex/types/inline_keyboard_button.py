@@ -7,7 +7,6 @@ from .keyboard_button import KeyboardButton
 class InlineKeyboardButton(Object):
     def __init__(
         self,
-        *,
         text:str,
         callback_data:str=None,
         url:str=None,
