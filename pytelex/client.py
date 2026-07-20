@@ -11,9 +11,10 @@ from .errors import BadRequest, Forbidden, TelegramError
 import asyncio
 import os
 
+
+
 class TeleClient(ClientMethod):
-    def __init__(self, token):
-        self.token = token
+esr        self.token = token
         self.request = Request(self.token)
         self.offset = 0
         self.handlers = []
